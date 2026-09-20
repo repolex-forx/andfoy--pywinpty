@@ -1,0 +1,14 @@
+[2026-09-20T05:05:41Z] === ENRICH ITERATION 1 START | repo=andfoy/pywinpty sha=6aa5ef7e ===
+[2026-09-20T05:05:41Z] [iter=1] PHASE START: enrich repo=andfoy/pywinpty sha=6aa5ef7e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6aa5ef7e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6aa5ef7e248af38b44e502997b1873f7227d8508.nq.gz
+[2026-09-20T05:05:43Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-20T05:05:43Z] [iter=1] AST store loaded triples=43218 load_secs=0 mem_mb=148 MB
+[2026-09-20T05:05:43Z] [iter=1] Step 2: Finding LSP targets mem_mb=148 MB
+[2026-09-20T05:05:43Z] [iter=1] LSP targets found call_sites=332 imports=0 extends=0 implements=0 secs=0
+[2026-09-20T05:05:43Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=148 MB
+[2026-09-20T05:05:44Z] [iter=1] Position index built positions=2894 nodes_with_types=3676 secs=0 mem_mb=148 MB
+[2026-09-20T05:05:44Z] [iter=1] Step 3: Starting LSP resolution mem_mb=148 MB already_completed_types=[] already_completed_files=0
+[2026-09-20T05:05:44Z] [iter=1] Resolving target type target_type=call_site count=332
+[2026-09-20T05:06:19Z] [iter=1] Target type resolved target_type=call_site resolved=171 errors=76 secs=36 mem_mb=148 MB
+[2026-09-20T05:06:35Z] [iter=1] Step 5: Writing final enrichment file triples=3110
+[2026-09-20T05:06:35Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6aa5ef7e248af38b44e502997b1873f7227d8508.nq.gz size_kb=50
+[2026-09-20T05:06:35Z] [iter=1] PHASE END: enrich elapsed_s=55 elapsed_min=0.9 total_triples=3110
