@@ -1432,7 +1432,9 @@
           "githubUrl": "https://github.com/pyo3/pyo3",
           "source": "build_file:Cargo.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/1d95a3aaec1d3f8f962f61af026aa0ba9b9fc599/chunk-001.nq.gz",
+      "dep": "dep/1d95a3aaec1d3f8f962f61af026aa0ba9b9fc599.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
