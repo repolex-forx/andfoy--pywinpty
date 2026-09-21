@@ -1244,6 +1244,31 @@
         "blob/6e3b7df7de6eb00a4f6af5a29f8f46d62940c788.nq.gz",
         "blob/bf0da8e72fb4faea1041ee95a5d90c2e2bd1bce4.nq.gz",
         "blob/57b6b99ccc51ad7c4affab3664553761b76802c7.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/f759b6a7e6130e5fa24e0f4f955e766e83f78303.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "winpty-rs",
+          "ecosystem": "CARGO",
+          "version": "0.3.8",
+          "githubOrg": "andfoy",
+          "githubRepo": "winpty-rs",
+          "githubCommit": "3b9355c64230d7b959f03b6bf259261e76efa238",
+          "githubTag": "v0.3.8",
+          "githubUrl": "https://github.com/andfoy/winpty-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.16.2",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "922bbfc92da63d37b24946afdb651d9ae2a0ee47",
+          "githubTag": "v0.16.2",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
