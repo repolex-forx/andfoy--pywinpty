@@ -3,6 +3,11 @@
   "repo": "pywinpty",
   "versions": [
     {
+      "commit": "1d95a3aaec1d3f8f962f61af026aa0ba9b9fc599",
+      "tag": "v2.0.6",
+      "parsed_at": "2026-09-21T05:39:40.708045+00:00"
+    },
+    {
       "commit": "f759b6a7e6130e5fa24e0f4f955e766e83f78303",
       "tag": "v2.0.7",
       "parsed_at": "2026-09-21T05:01:15.082470+00:00"
